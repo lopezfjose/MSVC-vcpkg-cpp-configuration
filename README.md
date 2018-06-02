@@ -150,7 +150,7 @@ ADD_SUBDIRECTORY ("vcpkg-test")
 #### Source Directory CMake File Configuration:
 ```
 CMAKE_MINIMUM_REQUIRED (VERSION 3.8)
-ENABLED_TESTING ()
+ENABLE_TESTING ()
 
 FIND_PACKAGE (GTest REQUIRED)
 
