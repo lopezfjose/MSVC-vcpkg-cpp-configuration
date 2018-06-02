@@ -3,10 +3,13 @@
 
 #include "vcpkg-test.h"
 
-unsigned int factorial(const unsigned int number)
-{
-    return ((number <= 1) ? number : factorial(number - 1) * number);
-}
+/** Sample function for catch and gtest unit testing frameworks
+ *  unsigned int factorial(const unsigned int number)
+    {
+        return ((number <= 1) ? number : factorial(number - 1) * number);
+    }
+ *
+ */
 
 /** Catch test framework sample test case
 TEST_CASE("Compute Factorials", "[factorial]")
@@ -17,10 +20,12 @@ TEST_CASE("Compute Factorials", "[factorial]")
 }
 */
 
+/** Google test framework sample test case
 TEST(TestingConfiguration, BasicTest)
 {
     EXPECT_EQ(0, 1);
 }
+*/
 
 
 int main(int argc, char *argv[])
